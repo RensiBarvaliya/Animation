@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            div
+            {
+                background-color:#92B901;
+                position: relative;
+                border-radius: 3px;
+                width: 50px;
+                height: 30px;
+                font-size: 25px;
+                color: aliceblue;
+                font-weight: 20px;
+                padding: 5px 5px;
+                animation-name: abc;
+                /* animation-iteration-count: infinite; */
+                /* animation-direction: alternate; */
+                animation-duration: 4s;
+                margin: 50px;
+            }
+            @keyframes abc
+            {
+                0%
+                {
+                    left: 0px;
+                    transform: rotate(20deg);
+                    background-color: skyblue;
+                }
+                25%
+                {
+                    left: 600px;
+                }
+                50%
+                {
+                    left:600px;
+                    transform: rotate(200deg);
+                }
+                75%
+                {
+                    left: 0px;
+                    transform: rotate(700deg);
+                }
+                100%
+                {
+                    left: 0px;
+                    transform: rotate(0deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <div>CSS</div>
+    </body>
+</html>

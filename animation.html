@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <style>
+            .a
+            {
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+                color: chartreuse;
+                font-size: x-large;
+                position: relative;
+                animation-name: ab;
+                animation-duration: 2s;
+                animation-direction: alternate;
+                animation-iteration-count: infinite;
+                
+            }
+            @keyframes ab
+            {
+                0%
+                {
+                    left: 0px;
+                }
+                25%
+                {
+                    left: 250px;
+                    background-color: blueviolet;
+                    height: 400px;
+                    width: 400px;
+                    text-shadow: 5px 80px 5px aliceblue;
+                    font-size: 100px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+                50%
+                {
+                    left: 500px;
+                    background-color: brown;
+                    height: 700px;
+                    width: 700px;
+                }
+                75%
+                {
+                    left: 750px;
+                    background-color: darkkhaki;
+                    height: 1000px;
+                    width: 1000px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">RENSI</div>
+    </body>
+</html>
